@@ -29,7 +29,6 @@ public:
             }
         }
         if(st.size()==0) return true;
-        else if (st.size()!=0) return false;
-        return true;
+        return false;
     }
 };
